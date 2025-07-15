@@ -32,8 +32,9 @@ In this project, I built an interactive rating component that allows a user to s
 - Because both HTML files used the same ```index.js``` script, I had to ensure elements exist before attaching listeners to avoid null errors (e.g., checking if ```ratingBtns.length``` and ```submitBtn``` exist).
 ### Screenshot
 
-![](./images/Screenshot_15-7-2025_144625_127.0.0.1.jpeg)
 ![](./images/Screenshot_15-7-2025_14466_127.0.0.1.jpeg)
+![](./images/Screenshot_15-7-2025_144625_127.0.0.1.jpeg)
+
 
 
 ### Links

@@ -44,6 +44,10 @@ button{
     inline-size: 70px;
     block-size: 70px;
     border-radius: 100%;
+    @media (width<850px){
+        inline-size: 40px;
+        block-size: 40px;
+    }
 }
 
 .rating-btn button:hover{
@@ -73,6 +77,36 @@ button{
 .submit:hover:focus{
     background-color: hsl(0, 100%, 100%);
 }
+
+.ill-thank-you{
+    transform: translateX(80%);
+    margin-top: 20px;
+    @media(width<850px){
+        transform: translateX(20%);
+    }
+}
+
+.thank-you{
+    text-align: center;
+    padding: 10px;
+    color: hsl(217, 12%, 63%);
+}
+
+.rating-info{
+    background-color: hsl(213, 20%, 30%);
+    color: hsl(25, 97%, 53%);
+    border-radius: 25px;
+    padding: 15px;
+    max-inline-size: 200px;
+    font-size: 1rem;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.thank-you h2{
+    color: hsl(0, 100%, 100%);
+}
+
 
 .attribution{
     color: hsl(0, 100%, 100%);
